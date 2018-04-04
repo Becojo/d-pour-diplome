@@ -1,0 +1,12 @@
+{
+    "name": "D Pour Diplome",
+    "version": "1.0",
+    "description": "Calcul la note minimale à avoir pour respecter les conditions qui demande d'avoir 50 % de moyenne aux évaluations individuelles.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://signets-ens.etsmtl.ca/Secure/DetailsCoursGroupe.aspx*"],
+            "js": ["script.js"]
+        }
+    ]
+}
